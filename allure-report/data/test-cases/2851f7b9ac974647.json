@@ -1,0 +1,129 @@
+{
+  "uid" : "2851f7b9ac974647",
+  "name" : "Then the user must remain on login page displaying a message \"Please enter username\"",
+  "fullName" : "To test the login functionality of an application: The one where user logs in using invalid credentials.Then the user must remain on login page displaying a message \"Please enter username\"",
+  "historyId" : "b9ea585618ba6288e24bec5034a3c59a",
+  "time" : {
+    "start" : 1628167670147,
+    "stop" : 1628167670165,
+    "duration" : 18
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element/eb47e164-ca46-4c4c-b21b-e79d4de7a09c/clear",
+      "time" : {
+        "start" : 1628167670152,
+        "stop" : 0,
+        "duration" : -1628167670152
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1628167670157,
+          "stop" : 0,
+          "duration" : -1628167670157
+        },
+        "status" : "unknown",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/element",
+          "time" : {
+            "start" : 1628167670159,
+            "stop" : 0,
+            "duration" : -1628167670159
+          },
+          "status" : "unknown",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "684473ac7da0274e",
+            "name" : "Request",
+            "source" : "684473ac7da0274e.json",
+            "type" : "application/json",
+            "size" : 97
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "c43ef4645efa4d26",
+          "name" : "Request",
+          "source" : "c43ef4645efa4d26.json",
+          "type" : "application/json",
+          "size" : 97
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "344a3a6951014d15",
+      "name" : "Response",
+      "source" : "344a3a6951014d15.json",
+      "type" : "application/json",
+      "size" : 83
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the login functionality of an application: The one where user logs in using invalid credentials"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the login functionality of an application: The one where user logs in using invalid credentials"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then the user must remain on login page displaying a message \"Please enter username\""
+  }, {
+    "name" : "package",
+    "value" : "To test the login functionality of an application: The one where user logs in using invalid credentials"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.131"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2851f7b9ac974647.json",
+  "parameterValues" : [ "chrome-92.0.4515.131" ]
+}

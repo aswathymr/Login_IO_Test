@@ -1,0 +1,99 @@
+{
+  "uid" : "1662d09e6163b35a",
+  "name" : "",
+  "fullName" : "To test the login functionality of an application: Given the user is on login page.",
+  "historyId" : "913e10faf6abc49179db687ccf68882",
+  "time" : {
+    "start" : 1628132666135,
+    "stop" : 1628132666154,
+    "duration" : 19
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1628132666144,
+        "stop" : 1628132666151,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "64bc9e3f465c69eb",
+        "name" : "Request",
+        "source" : "64bc9e3f465c69eb.json",
+        "type" : "application/json",
+        "size" : 62
+      }, {
+        "uid" : "17713bf61f915999",
+        "name" : "Response",
+        "source" : "17713bf61f915999.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "f1127853dfbf7903",
+      "name" : "Response",
+      "source" : "f1127853dfbf7903.json",
+      "type" : "application/json",
+      "size" : 1004
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the login functionality of an application: Given the user is on login page"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the login functionality of an application: Given the user is on login page"
+  }, {
+    "name" : "testMethod",
+    "value" : ""
+  }, {
+    "name" : "package",
+    "value" : "To test the login functionality of an application: Given the user is on login page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.131"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1662d09e6163b35a.json",
+  "parameterValues" : [ "chrome-92.0.4515.131" ]
+}

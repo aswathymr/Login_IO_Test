@@ -1,0 +1,208 @@
+{
+  "uid" : "2d3ff4df409a0ef1",
+  "name" : "Given the user is on login page",
+  "fullName" : "To test the login functionality of an application: The one where user logs in using invalid credentials.Given the user is on login page",
+  "historyId" : "10b6abd5162b932ed7b5d0ca171feff2",
+  "time" : {
+    "start" : 1628177554283,
+    "stop" : 1628177554294,
+    "duration" : 11
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1628177554284,
+        "stop" : 0,
+        "duration" : -1628177554284
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/url",
+        "time" : {
+          "start" : 1628177554286,
+          "stop" : 0,
+          "duration" : -1628177554286
+        },
+        "status" : "unknown",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "88d40e6b832c3507",
+          "name" : "Request",
+          "source" : "88d40e6b832c3507.json",
+          "type" : "application/json",
+          "size" : 54
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the login functionality of an application: The one where user logs in using invalid credentials"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the login functionality of an application: The one where user logs in using invalid credentials"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given the user is on login page"
+  }, {
+    "name" : "package",
+    "value" : "To test the login functionality of an application: The one where user logs in using invalid credentials"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.131"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a8325ba9b7cd3e93",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628177554233,
+        "stop" : 1628177554241,
+        "duration" : 8
+      }
+    }, {
+      "uid" : "5f88fb5a0c6ec847",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628177448280,
+        "stop" : 1628177448291,
+        "duration" : 11
+      }
+    }, {
+      "uid" : "5dbe920dd8d3cddf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628177448228,
+        "stop" : 1628177448237,
+        "duration" : 9
+      }
+    }, {
+      "uid" : "37d43d6c07da519a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628167669852,
+        "stop" : 1628167669925,
+        "duration" : 73
+      }
+    }, {
+      "uid" : "a9f3baa0f708f0c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628167669778,
+        "stop" : 1628167669787,
+        "duration" : 9
+      }
+    }, {
+      "uid" : "6f7e36a450b53cdc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628137126310,
+        "stop" : 1628137126390,
+        "duration" : 80
+      }
+    }, {
+      "uid" : "3c84943f8a997245",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628137126119,
+        "stop" : 1628137126129,
+        "duration" : 10
+      }
+    }, {
+      "uid" : "8d45a072520c9efa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628136319194,
+        "stop" : 1628136319267,
+        "duration" : 73
+      }
+    }, {
+      "uid" : "63aefd1b9d09774c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628136318981,
+        "stop" : 1628136318993,
+        "duration" : 12
+      }
+    }, {
+      "uid" : "b7588cbd66a9afbf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628136147111,
+        "stop" : 1628136147125,
+        "duration" : 14
+      }
+    }, {
+      "uid" : "24c85cb413e7c41",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628136147041,
+        "stop" : 1628136147050,
+        "duration" : 9
+      }
+    }, {
+      "uid" : "7c6a9f50051cc055",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628136093237,
+        "stop" : 1628136093389,
+        "duration" : 152
+      }
+    }, {
+      "uid" : "dbae6ce0a31eaa63",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628136093071,
+        "stop" : 1628136093080,
+        "duration" : 9
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2d3ff4df409a0ef1.json",
+  "parameterValues" : [ "chrome-92.0.4515.131" ]
+}

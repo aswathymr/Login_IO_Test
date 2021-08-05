@@ -1,0 +1,152 @@
+{
+  "uid" : "c20cc9f6597c1335",
+  "name" : "Given the user is on login page",
+  "fullName" : "To test the login functionality of an application: The one where user logs in using valid credentials.Given the user is on login page",
+  "historyId" : "b846f0c7946087f593a7ef832b238282",
+  "time" : {
+    "start" : 1628177554156,
+    "stop" : 1628177554173,
+    "duration" : 17
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1628177554162,
+        "stop" : 0,
+        "duration" : -1628177554162
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/url",
+        "time" : {
+          "start" : 1628177554165,
+          "stop" : 0,
+          "duration" : -1628177554165
+        },
+        "status" : "unknown",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "878cc26a329c30d4",
+          "name" : "Request",
+          "source" : "878cc26a329c30d4.json",
+          "type" : "application/json",
+          "size" : 54
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the login functionality of an application: The one where user logs in using valid credentials"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the login functionality of an application: The one where user logs in using valid credentials"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given the user is on login page"
+  }, {
+    "name" : "package",
+    "value" : "To test the login functionality of an application: The one where user logs in using valid credentials"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.131"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ebecbd9f4e8a7ffb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628177448146,
+        "stop" : 1628177448162,
+        "duration" : 16
+      }
+    }, {
+      "uid" : "36f80a91ffc8cbe6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628167669682,
+        "stop" : 1628167669700,
+        "duration" : 18
+      }
+    }, {
+      "uid" : "ae9f6efc56623b48",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628137126029,
+        "stop" : 1628137126047,
+        "duration" : 18
+      }
+    }, {
+      "uid" : "18ed19a17b8c094b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628136318888,
+        "stop" : 1628136318907,
+        "duration" : 19
+      }
+    }, {
+      "uid" : "6e78f2828dcd6d99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628136146955,
+        "stop" : 1628136146972,
+        "duration" : 17
+      }
+    }, {
+      "uid" : "658554a623ffb49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628136092983,
+        "stop" : 1628136093000,
+        "duration" : 17
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c20cc9f6597c1335.json",
+  "parameterValues" : [ "chrome-92.0.4515.131" ]
+}

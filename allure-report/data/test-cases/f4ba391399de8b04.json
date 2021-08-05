@@ -1,0 +1,108 @@
+{
+  "uid" : "f4ba391399de8b04",
+  "name" : "When the user enters username as \"user1\" and password as \"web_dev\"",
+  "fullName" : "To test the login functionality of an application: Given the user is on login page.When the user enters username as \"user1\" and password as \"web_dev\"",
+  "historyId" : "c3dd3e24413a07b83c3d895f790f6cc1",
+  "time" : {
+    "start" : 1628134406536,
+    "stop" : 1628134406554,
+    "duration" : 18
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1628134406540,
+        "stop" : 0,
+        "duration" : -1628134406540
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1628134406548,
+          "stop" : 0,
+          "duration" : -1628134406548
+        },
+        "status" : "unknown",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "de7d0c49981a0f5f",
+          "name" : "Request",
+          "source" : "de7d0c49981a0f5f.json",
+          "type" : "application/json",
+          "size" : 59
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "e34a216c3e9d422e",
+        "name" : "Request",
+        "source" : "e34a216c3e9d422e.json",
+        "type" : "application/json",
+        "size" : 59
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the login functionality of an application: Given the user is on login page"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the login functionality of an application: Given the user is on login page"
+  }, {
+    "name" : "testMethod",
+    "value" : "When the user enters username as \"user1\" and password as \"web_dev\""
+  }, {
+    "name" : "package",
+    "value" : "To test the login functionality of an application: Given the user is on login page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.131"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f4ba391399de8b04.json",
+  "parameterValues" : [ "chrome-92.0.4515.131" ]
+}

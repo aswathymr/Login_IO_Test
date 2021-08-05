@@ -1,0 +1,261 @@
+{
+  "uid" : "81153b2e74cc4752",
+  "name" : "Then the user must remain on login page displaying a message \"Please enter username\"",
+  "fullName" : "To test the login functionality of an application: The one where user logs in using invalid credentials.Then the user must remain on login page displaying a message \"Please enter username\"",
+  "historyId" : "b9ea585618ba6288e24bec5034a3c59a",
+  "time" : {
+    "start" : 1628136147373,
+    "stop" : 1628136147430,
+    "duration" : 57
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1628136147375,
+        "stop" : 0,
+        "duration" : -1628136147375
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1628136147380,
+          "stop" : 1628136147386,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "b9434c76d7bb5410",
+          "name" : "Request",
+          "source" : "b9434c76d7bb5410.json",
+          "type" : "application/json",
+          "size" : 62
+        }, {
+          "uid" : "f5b42091a58ea1ef",
+          "name" : "Response",
+          "source" : "f5b42091a58ea1ef.json",
+          "type" : "application/json",
+          "size" : 184
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1628136147394,
+          "stop" : 1628136147399,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "d25b2663db6cdcb6",
+          "name" : "Request",
+          "source" : "d25b2663db6cdcb6.json",
+          "type" : "application/json",
+          "size" : 97
+        }, {
+          "uid" : "497587192df5272b",
+          "name" : "Response",
+          "source" : "497587192df5272b.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/element/c7bc0ea7-c3a1-4dcc-b920-efdec0c49857/clear",
+        "time" : {
+          "start" : 1628136147402,
+          "stop" : 1628136147406,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "49541caabdb5b5b9",
+          "name" : "Response",
+          "source" : "49541caabdb5b5b9.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/element/3c8c4b27-1da7-4e58-ac31-bc500809b94b/click",
+        "time" : {
+          "start" : 1628136147408,
+          "stop" : 0,
+          "duration" : -1628136147408
+        },
+        "status" : "unknown",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/element",
+          "time" : {
+            "start" : 1628136147410,
+            "stop" : 0,
+            "duration" : -1628136147410
+          },
+          "status" : "unknown",
+          "steps" : [ {
+            "name" : "POST /session/:sessionId/element",
+            "time" : {
+              "start" : 1628136147412,
+              "stop" : 1628136147420,
+              "duration" : 8
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "a72b28edb9e58c0a",
+              "name" : "Request",
+              "source" : "a72b28edb9e58c0a.json",
+              "type" : "application/json",
+              "size" : 97
+            }, {
+              "uid" : "231b7c374b3d16df",
+              "name" : "Response",
+              "source" : "231b7c374b3d16df.json",
+              "type" : "application/json",
+              "size" : 83
+            } ],
+            "parameters" : [ ],
+            "attachmentsCount" : 2,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          }, {
+            "name" : "POST /session/:sessionId/element/c7bc0ea7-c3a1-4dcc-b920-efdec0c49857/clear",
+            "time" : {
+              "start" : 1628136147422,
+              "stop" : 1628136147425,
+              "duration" : 3
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "b47c222eaff1bc63",
+              "name" : "Response",
+              "source" : "b47c222eaff1bc63.json",
+              "type" : "application/json",
+              "size" : 83
+            } ],
+            "parameters" : [ ],
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          }, {
+            "name" : "POST /session/:sessionId/element/6b077f1e-cbc1-44ed-9730-2fabf3f17df5/click",
+            "time" : {
+              "start" : 1628136147428,
+              "stop" : 0,
+              "duration" : -1628136147428
+            },
+            "status" : "unknown",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : false
+          } ],
+          "attachments" : [ {
+            "uid" : "9c586c647522b3c6",
+            "name" : "Request",
+            "source" : "9c586c647522b3c6.json",
+            "type" : "application/json",
+            "size" : 97
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 4,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 3,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 4,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 4,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "b03fe9176b05c6ce",
+        "name" : "Request",
+        "source" : "b03fe9176b05c6ce.json",
+        "type" : "application/json",
+        "size" : 59
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 10,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 8,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 10,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 9,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the login functionality of an application: The one where user logs in using invalid credentials"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the login functionality of an application: The one where user logs in using invalid credentials"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then the user must remain on login page displaying a message \"Please enter username\""
+  }, {
+    "name" : "package",
+    "value" : "To test the login functionality of an application: The one where user logs in using invalid credentials"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.131"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "81153b2e74cc4752.json",
+  "parameterValues" : [ "chrome-92.0.4515.131" ]
+}

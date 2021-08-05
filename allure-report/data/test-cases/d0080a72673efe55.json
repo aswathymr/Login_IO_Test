@@ -1,0 +1,87 @@
+{
+  "uid" : "d0080a72673efe55",
+  "name" : "And clicks on login button",
+  "fullName" : "To test the login functionality of an application: Given the user is on login page.And clicks on login button",
+  "historyId" : "14dcc24c8407b8880ab1be624a6c041",
+  "time" : {
+    "start" : 1628134406555,
+    "stop" : 1628134406561,
+    "duration" : 6
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1628134406556,
+        "stop" : 0,
+        "duration" : -1628134406556
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7b1a4adb8ff5c279",
+        "name" : "Request",
+        "source" : "7b1a4adb8ff5c279.json",
+        "type" : "application/json",
+        "size" : 62
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the login functionality of an application: Given the user is on login page"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the login functionality of an application: Given the user is on login page"
+  }, {
+    "name" : "testMethod",
+    "value" : "And clicks on login button"
+  }, {
+    "name" : "package",
+    "value" : "To test the login functionality of an application: Given the user is on login page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.131"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d0080a72673efe55.json",
+  "parameterValues" : [ "chrome-92.0.4515.131" ]
+}

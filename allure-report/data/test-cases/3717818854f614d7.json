@@ -1,0 +1,137 @@
+{
+  "uid" : "3717818854f614d7",
+  "name" : "And clicks on login button",
+  "fullName" : "To test the login functionality of an application: The one where user logs in using valid credentials.And clicks on login button",
+  "historyId" : "35fae2f15801987af220c07a55c9bb71",
+  "time" : {
+    "start" : 1628177554196,
+    "stop" : 1628177554202,
+    "duration" : 6
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1628177554197,
+        "stop" : 0,
+        "duration" : -1628177554197
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "22226273de211eec",
+        "name" : "Request",
+        "source" : "22226273de211eec.json",
+        "type" : "application/json",
+        "size" : 62
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the login functionality of an application: The one where user logs in using valid credentials"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the login functionality of an application: The one where user logs in using valid credentials"
+  }, {
+    "name" : "testMethod",
+    "value" : "And clicks on login button"
+  }, {
+    "name" : "package",
+    "value" : "To test the login functionality of an application: The one where user logs in using valid credentials"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.131"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "50abbab88e33b89e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628177448184,
+        "stop" : 1628177448191,
+        "duration" : 7
+      }
+    }, {
+      "uid" : "66dd7b543d547409",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628167669723,
+        "stop" : 1628167669730,
+        "duration" : 7
+      }
+    }, {
+      "uid" : "4680a49bf8bbecee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628137126067,
+        "stop" : 1628137126078,
+        "duration" : 11
+      }
+    }, {
+      "uid" : "3c514f9aee7342a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628136318928,
+        "stop" : 1628136318935,
+        "duration" : 7
+      }
+    }, {
+      "uid" : "be0c3629ee330570",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628136146992,
+        "stop" : 1628136146999,
+        "duration" : 7
+      }
+    }, {
+      "uid" : "185640c9ba81d752",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628136093024,
+        "stop" : 1628136093036,
+        "duration" : 12
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3717818854f614d7.json",
+  "parameterValues" : [ "chrome-92.0.4515.131" ]
+}

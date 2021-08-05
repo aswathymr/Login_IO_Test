@@ -1,0 +1,193 @@
+{
+  "uid" : "e4719fa4a7657d41",
+  "name" : "And clicks on login button",
+  "fullName" : "To test the login functionality of an application: The one where user logs in using invalid credentials.And clicks on login button",
+  "historyId" : "654ab5c962ab902b3631fde3b4236804",
+  "time" : {
+    "start" : 1628177554306,
+    "stop" : 1628177554314,
+    "duration" : 8
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1628177554308,
+        "stop" : 0,
+        "duration" : -1628177554308
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9638a768c6a1777",
+        "name" : "Request",
+        "source" : "9638a768c6a1777.json",
+        "type" : "application/json",
+        "size" : 62
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the login functionality of an application: The one where user logs in using invalid credentials"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the login functionality of an application: The one where user logs in using invalid credentials"
+  }, {
+    "name" : "testMethod",
+    "value" : "And clicks on login button"
+  }, {
+    "name" : "package",
+    "value" : "To test the login functionality of an application: The one where user logs in using invalid credentials"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.131"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d155eff54b5800c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628177554251,
+        "stop" : 1628177554256,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "47c541df0871f165",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628177448306,
+        "stop" : 1628177448314,
+        "duration" : 8
+      }
+    }, {
+      "uid" : "48893b87502b6465",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628177448248,
+        "stop" : 1628177448254,
+        "duration" : 6
+      }
+    }, {
+      "uid" : "5e6dec25facdf377",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628167670060,
+        "stop" : 1628167670147,
+        "duration" : 87
+      }
+    }, {
+      "uid" : "5a55e66ebd6c34a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628167669799,
+        "stop" : 1628167669804,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "c0dc37c12bfa049e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628137126398,
+        "stop" : 1628137126405,
+        "duration" : 7
+      }
+    }, {
+      "uid" : "736854646da344b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628137126145,
+        "stop" : 1628137126164,
+        "duration" : 19
+      }
+    }, {
+      "uid" : "ad85e2cf933b0fa5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628136319285,
+        "stop" : 1628136319290,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "b0ee07ce23585ae4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628136319013,
+        "stop" : 1628136319031,
+        "duration" : 18
+      }
+    }, {
+      "uid" : "6b6b3eca65c54769",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628136147239,
+        "stop" : 1628136147373,
+        "duration" : 134
+      }
+    }, {
+      "uid" : "4bb0aa3259f50363",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628136147061,
+        "stop" : 1628136147067,
+        "duration" : 6
+      }
+    }, {
+      "uid" : "47b6aeb25a8f8100",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628136093409,
+        "stop" : 1628136093415,
+        "duration" : 6
+      }
+    }, {
+      "uid" : "68b460137050d195",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628136093098,
+        "stop" : 1628136093116,
+        "duration" : 18
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e4719fa4a7657d41.json",
+  "parameterValues" : [ "chrome-92.0.4515.131" ]
+}

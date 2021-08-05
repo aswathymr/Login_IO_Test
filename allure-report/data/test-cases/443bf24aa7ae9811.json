@@ -1,0 +1,135 @@
+{
+  "uid" : "443bf24aa7ae9811",
+  "name" : "",
+  "fullName" : "To test the login functionality of an application: The one where user logs in using invalid credentials.",
+  "historyId" : "76e7ca6cf054c800d8a4f7b8923231bf",
+  "time" : {
+    "start" : 1628136093178,
+    "stop" : 1628136093237,
+    "duration" : 59
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element/20380c85-df37-4c86-bbee-7469af026d96/clear",
+      "time" : {
+        "start" : 1628136093191,
+        "stop" : 1628136093198,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fbd8b2e49d08dadd",
+        "name" : "Response",
+        "source" : "fbd8b2e49d08dadd.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/09bb40b7-abb3-45be-82f0-9d3bfb3f76d9/click",
+      "time" : {
+        "start" : 1628136093204,
+        "stop" : 1628136093221,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f687d0ec3a0c57e3",
+        "name" : "Response",
+        "source" : "f687d0ec3a0c57e3.json",
+        "type" : "application/json",
+        "size" : 992
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1628136093227,
+        "stop" : 0,
+        "duration" : -1628136093227
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "692f2072e05c6270",
+        "name" : "Request",
+        "source" : "692f2072e05c6270.json",
+        "type" : "application/json",
+        "size" : 50
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "41489de005a5f8fc",
+      "name" : "Response",
+      "source" : "41489de005a5f8fc.json",
+      "type" : "application/json",
+      "size" : 83
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the login functionality of an application: The one where user logs in using invalid credentials"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the login functionality of an application: The one where user logs in using invalid credentials"
+  }, {
+    "name" : "testMethod",
+    "value" : ""
+  }, {
+    "name" : "package",
+    "value" : "To test the login functionality of an application: The one where user logs in using invalid credentials"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.131"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "443bf24aa7ae9811.json",
+  "parameterValues" : [ "chrome-92.0.4515.131" ]
+}

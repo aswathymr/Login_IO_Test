@@ -1,0 +1,105 @@
+{
+  "uid" : "9e4345c92b042dc9",
+  "name" : "And clicks on login button",
+  "fullName" : "To test the login functionality of an application: Given the user is on login page.And clicks on login button",
+  "historyId" : "14dcc24c8407b8880ab1be624a6c041",
+  "time" : {
+    "start" : 1628134574317,
+    "stop" : 1628134574326,
+    "duration" : 9
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1628134574319,
+        "stop" : 0,
+        "duration" : -1628134574319
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "930adf63085b0bd9",
+        "name" : "Request",
+        "source" : "930adf63085b0bd9.json",
+        "type" : "application/json",
+        "size" : 62
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the login functionality of an application: Given the user is on login page"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the login functionality of an application: Given the user is on login page"
+  }, {
+    "name" : "testMethod",
+    "value" : "And clicks on login button"
+  }, {
+    "name" : "package",
+    "value" : "To test the login functionality of an application: Given the user is on login page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.131"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d0080a72673efe55",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628134406555,
+        "stop" : 1628134406561,
+        "duration" : 6
+      }
+    }, {
+      "uid" : "99d9b1810f25a703",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628132666073,
+        "stop" : 1628132666079,
+        "duration" : 6
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9e4345c92b042dc9.json",
+  "parameterValues" : [ "chrome-92.0.4515.131" ]
+}

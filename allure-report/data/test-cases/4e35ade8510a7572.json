@@ -1,0 +1,158 @@
+{
+  "uid" : "4e35ade8510a7572",
+  "name" : "Then the user is logged in and displays a message \"You have successfully logged in\"",
+  "fullName" : "To test the login functionality of an application: The one where user logs in using valid credentials.Then the user is logged in and displays a message \"You have successfully logged in\"",
+  "historyId" : "95373dde24468487f815873e8dfca7cf",
+  "time" : {
+    "start" : 1628177554202,
+    "stop" : 1628177554213,
+    "duration" : 11
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1628177554204,
+        "stop" : 0,
+        "duration" : -1628177554204
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1628177554207,
+          "stop" : 0,
+          "duration" : -1628177554207
+        },
+        "status" : "unknown",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "4626b73a1ceaa41a",
+          "name" : "Request",
+          "source" : "4626b73a1ceaa41a.json",
+          "type" : "application/json",
+          "size" : 50
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "18b8b1b4598b2467",
+        "name" : "Request",
+        "source" : "18b8b1b4598b2467.json",
+        "type" : "application/json",
+        "size" : 50
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the login functionality of an application: The one where user logs in using valid credentials"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the login functionality of an application: The one where user logs in using valid credentials"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then the user is logged in and displays a message \"You have successfully logged in\""
+  }, {
+    "name" : "package",
+    "value" : "To test the login functionality of an application: The one where user logs in using valid credentials"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.131"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9bc3f211598ba6e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628177448191,
+        "stop" : 1628177448202,
+        "duration" : 11
+      }
+    }, {
+      "uid" : "a43029e185e0d998",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628167669731,
+        "stop" : 1628167669752,
+        "duration" : 21
+      }
+    }, {
+      "uid" : "5e747a3609c6036e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628137126078,
+        "stop" : 1628137126093,
+        "duration" : 15
+      }
+    }, {
+      "uid" : "433a98b878045056",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628136318936,
+        "stop" : 1628136318953,
+        "duration" : 17
+      }
+    }, {
+      "uid" : "7e08c619c95260f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628136146999,
+        "stop" : 1628136147014,
+        "duration" : 15
+      }
+    }, {
+      "uid" : "b3cd651f04e11a95",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628136093036,
+        "stop" : 1628136093050,
+        "duration" : 14
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4e35ade8510a7572.json",
+  "parameterValues" : [ "chrome-92.0.4515.131" ]
+}

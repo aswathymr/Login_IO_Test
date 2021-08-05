@@ -1,0 +1,162 @@
+{
+  "uid" : "6a78c02deaa7ba8e",
+  "name" : "Then the user is logged in and displays a message \"You have successfully logged in\"",
+  "fullName" : "To test the login functionality of an application: Given the user is on login page.Then the user is logged in and displays a message \"You have successfully logged in\"",
+  "historyId" : "1fb956a9b8b8c18fddca1ad881521270",
+  "time" : {
+    "start" : 1628132666079,
+    "stop" : 1628132666135,
+    "duration" : 56
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1628132666083,
+        "stop" : 0,
+        "duration" : -1628132666083
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1628132666086,
+          "stop" : 1628132666099,
+          "duration" : 13
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "12a5c5a98f8c11b2",
+          "name" : "Request",
+          "source" : "12a5c5a98f8c11b2.json",
+          "type" : "application/json",
+          "size" : 50
+        }, {
+          "uid" : "f4a66c26a83af8fb",
+          "name" : "Response",
+          "source" : "f4a66c26a83af8fb.json",
+          "type" : "application/json",
+          "size" : 1001
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/elements",
+        "time" : {
+          "start" : 1628132666114,
+          "stop" : 1628132666123,
+          "duration" : 9
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "4cfc2674bcbacdc7",
+          "name" : "Request",
+          "source" : "4cfc2674bcbacdc7.json",
+          "type" : "application/json",
+          "size" : 59
+        }, {
+          "uid" : "b9373b921b377bac",
+          "name" : "Response",
+          "source" : "b9373b921b377bac.json",
+          "type" : "application/json",
+          "size" : 1001
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/elements",
+        "time" : {
+          "start" : 1628132666131,
+          "stop" : 0,
+          "duration" : -1628132666131
+        },
+        "status" : "unknown",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "c8a57ee5f0d22cd1",
+          "name" : "Request",
+          "source" : "c8a57ee5f0d22cd1.json",
+          "type" : "application/json",
+          "size" : 59
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "f50ca4e0b9bb9dee",
+        "name" : "Request",
+        "source" : "f50ca4e0b9bb9dee.json",
+        "type" : "application/json",
+        "size" : 50
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 6,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the login functionality of an application: Given the user is on login page"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the login functionality of an application: Given the user is on login page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then the user is logged in and displays a message \"You have successfully logged in\""
+  }, {
+    "name" : "package",
+    "value" : "To test the login functionality of an application: Given the user is on login page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.131"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6a78c02deaa7ba8e.json",
+  "parameterValues" : [ "chrome-92.0.4515.131" ]
+}

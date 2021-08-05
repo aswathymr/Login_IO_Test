@@ -1,0 +1,158 @@
+{
+  "uid" : "a7f02d810d59e9b8",
+  "name" : "Then the user must remain on login page displaying a message \"Please enter username\"",
+  "fullName" : "To test the login functionality of an application: The one where user logs in using invalid credentials.Then the user must remain on login page displaying a message \"Please enter username\"",
+  "historyId" : "b9ea585618ba6288e24bec5034a3c59a",
+  "time" : {
+    "start" : 1628177554314,
+    "stop" : 1628177554328,
+    "duration" : 14
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1628177554316,
+        "stop" : 0,
+        "duration" : -1628177554316
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1628177554319,
+          "stop" : 0,
+          "duration" : -1628177554319
+        },
+        "status" : "unknown",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "928013748049a7db",
+          "name" : "Request",
+          "source" : "928013748049a7db.json",
+          "type" : "application/json",
+          "size" : 97
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "47db0890aec90f9c",
+        "name" : "Request",
+        "source" : "47db0890aec90f9c.json",
+        "type" : "application/json",
+        "size" : 97
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the login functionality of an application: The one where user logs in using invalid credentials"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the login functionality of an application: The one where user logs in using invalid credentials"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then the user must remain on login page displaying a message \"Please enter username\""
+  }, {
+    "name" : "package",
+    "value" : "To test the login functionality of an application: The one where user logs in using invalid credentials"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.131"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1c34f0366418680",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628177448314,
+        "stop" : 1628177448328,
+        "duration" : 14
+      }
+    }, {
+      "uid" : "2851f7b9ac974647",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628167670147,
+        "stop" : 1628167670165,
+        "duration" : 18
+      }
+    }, {
+      "uid" : "65b56c4a7c88b440",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628137126405,
+        "stop" : 1628137126420,
+        "duration" : 15
+      }
+    }, {
+      "uid" : "e61819476ea1871b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628136319291,
+        "stop" : 1628136319311,
+        "duration" : 20
+      }
+    }, {
+      "uid" : "81153b2e74cc4752",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628136147373,
+        "stop" : 1628136147430,
+        "duration" : 57
+      }
+    }, {
+      "uid" : "e76149d58d7602e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628136093415,
+        "stop" : 1628136093425,
+        "duration" : 10
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a7f02d810d59e9b8.json",
+  "parameterValues" : [ "chrome-92.0.4515.131" ]
+}

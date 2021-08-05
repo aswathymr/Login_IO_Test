@@ -1,0 +1,225 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "To test the login functionality of an application: Given the user is on login page",
+    "children" : [ {
+      "name" : "When the user enters username as \"user1\" and password as \"web_dev\"",
+      "uid" : "29a054f5faff84d0",
+      "parentUid" : "6f70a5f96e3fac35b13b57c38011f366",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628134574299,
+        "stop" : 1628134574317,
+        "duration" : 18
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "And clicks on login button",
+      "uid" : "9e4345c92b042dc9",
+      "parentUid" : "6f70a5f96e3fac35b13b57c38011f366",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628134574317,
+        "stop" : 1628134574326,
+        "duration" : 9
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "Then the user is logged in and displays a message \"You have successfully logged in\"",
+      "uid" : "7275c46180f63a3d",
+      "parentUid" : "6f70a5f96e3fac35b13b57c38011f366",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628134574326,
+        "stop" : 1628134574376,
+        "duration" : 50
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "",
+      "uid" : "1101b723d91246aa",
+      "parentUid" : "6f70a5f96e3fac35b13b57c38011f366",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628134574377,
+        "stop" : 1628134574398,
+        "duration" : 21
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    } ],
+    "uid" : "6f70a5f96e3fac35b13b57c38011f366"
+  }, {
+    "name" : "To test the login functionality of an application: The one where user logs in using valid credentials",
+    "children" : [ {
+      "name" : "Given the user is on login page",
+      "uid" : "c20cc9f6597c1335",
+      "parentUid" : "15e7327dd55c582679174d0386a800b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628177554156,
+        "stop" : 1628177554173,
+        "duration" : 17
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "When the user enters username as \"user1\" and password as \"web_dev\"",
+      "uid" : "4e34436137a332a1",
+      "parentUid" : "15e7327dd55c582679174d0386a800b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628177554173,
+        "stop" : 1628177554196,
+        "duration" : 23
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "And clicks on login button",
+      "uid" : "3717818854f614d7",
+      "parentUid" : "15e7327dd55c582679174d0386a800b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628177554196,
+        "stop" : 1628177554202,
+        "duration" : 6
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "Then the user is logged in and displays a message \"You have successfully logged in\"",
+      "uid" : "4e35ade8510a7572",
+      "parentUid" : "15e7327dd55c582679174d0386a800b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628177554202,
+        "stop" : 1628177554213,
+        "duration" : 11
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "",
+      "uid" : "3107a9be58cec586",
+      "parentUid" : "15e7327dd55c582679174d0386a800b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628177554213,
+        "stop" : 1628177554214,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    } ],
+    "uid" : "15e7327dd55c582679174d0386a800b9"
+  }, {
+    "name" : "To test the login functionality of an application: The one where user logs in using invalid credentials",
+    "children" : [ {
+      "name" : "When the user enters username as \"james\" and password as \"\"",
+      "uid" : "54f6f849f54f3617",
+      "parentUid" : "cea3e83911d8d725ac07d34e7d9aff0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628177554241,
+        "stop" : 1628177554251,
+        "duration" : 10
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "Then the user must remain on login page displaying a message \"Please enter password\"",
+      "uid" : "9721a5303ccc8f35",
+      "parentUid" : "cea3e83911d8d725ac07d34e7d9aff0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628177554256,
+        "stop" : 1628177554269,
+        "duration" : 13
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "Given the user is on login page",
+      "uid" : "2d3ff4df409a0ef1",
+      "parentUid" : "cea3e83911d8d725ac07d34e7d9aff0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628177554283,
+        "stop" : 1628177554294,
+        "duration" : 11
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "When the user enters username as \"\" and password as \"web_dev\"",
+      "uid" : "68d9ccacb594a67e",
+      "parentUid" : "cea3e83911d8d725ac07d34e7d9aff0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628177554294,
+        "stop" : 1628177554306,
+        "duration" : 12
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "And clicks on login button",
+      "uid" : "e4719fa4a7657d41",
+      "parentUid" : "cea3e83911d8d725ac07d34e7d9aff0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628177554306,
+        "stop" : 1628177554314,
+        "duration" : 8
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "Then the user must remain on login page displaying a message \"Please enter username\"",
+      "uid" : "a7f02d810d59e9b8",
+      "parentUid" : "cea3e83911d8d725ac07d34e7d9aff0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628177554314,
+        "stop" : 1628177554328,
+        "duration" : 14
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "",
+      "uid" : "136791f226284f9f",
+      "parentUid" : "cea3e83911d8d725ac07d34e7d9aff0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628177554328,
+        "stop" : 1628177554329,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    } ],
+    "uid" : "cea3e83911d8d725ac07d34e7d9aff0c"
+  } ]
+}

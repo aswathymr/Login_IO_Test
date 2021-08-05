@@ -1,0 +1,37 @@
+{
+  "total" : 3,
+  "items" : [ {
+    "uid" : "fee3c076d4f0040a591c417787614899",
+    "name" : "To test the login functionality of an application: The one where user logs in using invalid credentials",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "3522b220c54c676bd9884d8ac5338b5d",
+    "name" : "To test the login functionality of an application: The one where user logs in using valid credentials",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "23541121581776d39ec44eca8b2e950a",
+    "name" : "To test the login functionality of an application: Given the user is on login page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  } ]
+}
